@@ -12,7 +12,11 @@
 		"@astrojs/check": "^0.3.4",
 		"@astrojs/vue": "^4.0.8",
 		"astro": "^4.1.1",
+		"feather-icons": "^4.29.1",
 		"typescript": "^5.3.3",
 		"vue": "^3.4.5"
+	},
+	"devDependencies": {
+		"@types/feather-icons": "^4.29.4"
 	}
 }
