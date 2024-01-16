@@ -44,7 +44,15 @@ picture,
 svg,
 video {
 	display:   block;
-	max-width: 100%;
+	width: 100%;
+}
+
+svg {
+	margin: -1px;
+}
+
+svg > path {
+	width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
