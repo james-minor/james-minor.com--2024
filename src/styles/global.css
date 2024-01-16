@@ -1,0 +1,71 @@
+@import 'reset.css';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+/* --- Global Button Styles --- */
+.btn {
+	--btn-color: #111111;
+	--btn-background-color: #FFFFFF;
+
+	display: inline-block;
+
+	padding: 0.5rem 0.75rem;
+
+	border-style: solid;
+	border-width: thin;
+	border-color: var(--btn-color);
+
+	color: var(--btn-color);
+	background-color: var(--btn-background-color);
+
+	text-decoration: none;
+
+	transition: color 200ms, background-color 200ms;
+}
+
+.btn:hover,
+.btn:focus-visible {
+	color: var(--btn-background-color);
+	background-color: var(--btn-color);
+}
+
+.btn--dark {
+	--btn-color: #111111;
+	--btn-background-color: #FFFFFF;
+}
+
+.btn--light {
+	--btn-color: #FFFFFF;
+	--btn-background-color: #111111;
+}
