@@ -35,6 +35,8 @@ h6 {
 
 p {
 	max-width: 70ch;
+	line-height: 1.6;
+	margin-bottom: 1rem;
 }
 
 img,
